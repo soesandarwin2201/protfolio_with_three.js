@@ -16,12 +16,12 @@ const Navbar = () => {
       className="flex items-center gap-2" 
       onClick={() => { setActive("");
       window.scrollTo(0,0);}}>
-        <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+        
         <p className="text-white text-[18px] font-bold cursor-pointer flex flex-col">Soe Sandar Win&nbsp;<span className='sm:block hidden'>|Fullstack developer</span></p>
       </Link>
       <ul className="list-none hidden sm:flex flex-row gap-10">
         { navLinks.map((link) => (
-          <li key={link.id} className={ `${ active === link.title ? "text-white" : "text-secondary"} hover:text-white text-[18px] font-medium cursor-pointer`} onClick={() => setActive(link.title)}>
+          <li key={link.id} className={ `${ active === link.title ? "text-white" : "text-secondary"} hover:text-black text-[18px] font-medium cursor-pointer`} onClick={() => setActive(link.title)}>
             <a href={`#${link.id}`}>{link.title}</a>
           </li>
         ))}

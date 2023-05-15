@@ -19,11 +19,22 @@ import {
      starbucks,
      tesla,
      shopify,
-     carrent,
      jobit,
      tripguide,
      threejs,
    } from "../assets";
+
+   import project1 from '../assets/project1.png'
+   import project2 from '../assets/project2.png'
+   import project3 from '../assets/project3.png'
+   import project4 from '../assets/project4.png'
+   import project5 from '../assets/project5.png'
+   import project6 from '../assets/project6.png'
+   import microverse from '../assets/microverse.jpg'
+   import content from '../assets/content.png'
+   import ruby from '../assets/ruby.png'
+   import rails from '../assets/ruby-on-rails.png'
+
    
    export const navLinks = [
      {
@@ -42,17 +53,17 @@ import {
    
    const services = [
      {
-       title: "Web Developer",
+       title: "FrontEnd Developer",
        icon: web,
-     },
-     {
-       title: "React Native Developer",
-       icon: mobile,
      },
      {
        title: "Backend Developer",
        icon: backend,
      },
+     {
+      title: "UI/UX Designer",
+      icon: mobile,
+    },
      {
        title: "Content Creator",
        icon: creator,
@@ -73,10 +84,6 @@ import {
        icon: javascript,
      },
      {
-       name: "TypeScript",
-       icon: typescript,
-     },
-     {
        name: "React JS",
        icon: reactjs,
      },
@@ -87,10 +94,6 @@ import {
      {
        name: "Tailwind CSS",
        icon: tailwind,
-     },
-     {
-       name: "Node JS",
-       icon: nodejs,
      },
      {
        name: "MongoDB",
@@ -109,99 +112,62 @@ import {
        icon: figma,
      },
      {
-       name: "docker",
-       icon: docker,
+       name: "ruby",
+       icon: ruby,
+     },
+     {
+       name: "ruby on rails ",
+       icon: rails,
      },
    ];
    
    const experiences = [
      {
-       title: "React.js Developer",
-       company_name: "Starbucks",
-       icon: starbucks,
+       title: "Content Creator",
+       company_name: "Guide with Mahuyar",
+       icon: content,
        iconBg: "#383E56",
-       date: "March 2020 - April 2021",
+       date: "March 2020 - August 2020",
        points: [
-         "Developing and maintaining web applications using React.js and other related technologies.",
-         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-         "Implementing responsive design and ensuring cross-browser compatibility.",
-         "Participating in code reviews and providing constructive feedback to other developers.",
+         "Work on a scholarship Program with a big team of youths who belong to different culture and backgrounds",
+         " worked as the facilitator for the Myanmar youth people in the 2019 Youth developing camp"
        ],
      },
      {
-       title: "React.js Developer",
-       company_name: "Starbucks",
-       icon: starbucks,
+       title: "Student Mentor",
+       company_name: "Microverse",
+       icon: microverse,
        iconBg: "#383E56",
-       date: "March 2020 - April 2021",
+       date: "December 2022 - Present",
        points: [
-         "Developing and maintaining web applications using React.js and other related technologies.",
-         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-         "Implementing responsive design and ensuring cross-browser compatibility.",
-         "Participating in code reviews and providing constructive feedback to other developers.",
+         " Assisted two junior developers weekly to ensure their mastery of web development, agile methodologies, and professional work behavior",
+         "Assisted junior developers with debugging, educating them in coding best practices and providing them with technical support",
+         "Built group project with junior developers to help them improve their skills",
+         "Giving time to listen to their stories and experiences to give emotional support",
        ],
      },
      {
-       title: "React Native Developer",
-       company_name: "Tesla",
+       title: "business consultant",
+       company_name: "AlNA Beauty Products",
        icon: tesla,
        iconBg: "#E6DEDD",
-       date: "Jan 2021 - Feb 2022",
+       date: "May 2023 - Present",
        points: [
-         "Developing and maintaining web applications using React.js and other related technologies.",
+         "Create the business planner for the product package",
          "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-         "Implementing responsive design and ensuring cross-browser compatibility.",
-         "Participating in code reviews and providing constructive feedback to other developers.",
-       ],
-     },
-     {
-       title: "Web Developer",
-       company_name: "Shopify",
-       icon: shopify,
-       iconBg: "#383E56",
-       date: "Jan 2022 - Jan 2023",
-       points: [
-         "Developing and maintaining web applications using React.js and other related technologies.",
-         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-         "Implementing responsive design and ensuring cross-browser compatibility.",
-         "Participating in code reviews and providing constructive feedback to other developers.",
+         "Creating sale plan and graphic design for the high quality product",
+         "Check the progress of the business and manage team",
        ],
      },
      {
        title: "Full stack Developer",
-       company_name: "Meta",
-       icon: meta,
+       company_name: "Microverse",
+       icon: microverse,
        iconBg: "#E6DEDD",
-       date: "Jan 2023 - Present",
+       date: "Sep 2023 - Present",
        points: [
-         "Developing and maintaining web applications using React.js and other related technologies.",
-         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-         "Implementing responsive design and ensuring cross-browser compatibility.",
-         "Participating in code reviews and providing constructive feedback to other developers.",
-       ],
-     },
-     {
-       title: "Full stack Developer",
-       company_name: "Meta",
-       icon: meta,
-       iconBg: "#E6DEDD",
-       date: "Jan 2023 - Present",
-       points: [
-         "Developing and maintaining web applications using React.js and other related technologies.",
-         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-         "Implementing responsive design and ensuring cross-browser compatibility.",
-         "Participating in code reviews and providing constructive feedback to other developers.",
-       ],
-     },
-     {
-       title: "Full stack Developer",
-       company_name: "Meta",
-       icon: meta,
-       iconBg: "#E6DEDD",
-       date: "Jan 2023 - Present",
-       points: [
-         "Developing and maintaining web applications using React.js and other related technologies.",
-         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+         "recently graduated from Microverse, an online software development program that accepts less than 1% of applicants",
+         "Spent 1300+ hours mastering algorithms, data structures, and full-stack web development. Developed skills in remote pair programming using industry-standard git-flow and daily standups to collaborate with international remote developers",
          "Implementing responsive design and ensuring cross-browser compatibility.",
          "Participating in code reviews and providing constructive feedback to other developers.",
        ],
@@ -211,108 +177,63 @@ import {
    const testimonials = [
      {
        testimonial:
-         "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-       name: "Sara Lee",
-       designation: "CFO",
-       company: "Acme Co",
-       image: "https://randomuser.me/api/portraits/women/4.jpg",
+         "Soe's strong communication skills and collaborative attitude helped us to work effectively as a team.",
+       name: "Peter Chendi",
+       designation: "FullStack Developer",
+       company: "Microverse",
+       image: "https://media.licdn.com/dms/image/D4E35AQGhZklYNofDXQ/profile-framedphoto-shrink_400_400/0/1671796681971?e=1684728000&v=beta&t=eQzH2fl4EzT6i034VrDSDRxi4r7B6ff-ywlNU2-iqIM",
      },
      {
        testimonial:
-         "I've never met a web developer who truly cares about their clients' success like Rick does.",
-       name: "Chris Brown",
-       designation: "COO",
-       company: "DEF Corp",
-       image: "https://randomuser.me/api/portraits/men/5.jpg",
+         " She is highly organized and systematic in her approach to problem-solving, which always impresses me",
+       name: "Abdallag Antony",
+       designation: "Fullstack Developer",
+       company: "Microverse",
+       image: "https://media.licdn.com/dms/image/D4D35AQEO1naJr4CVXA/profile-framedphoto-shrink_400_400/0/1672029026869?e=1684731600&v=beta&t=7jqRX6tBImOL0le-mVimCs3PsNhGZQCc4CShMsi1lLU"
      },
      {
        testimonial:
-         "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-       name: "Lisa Wang",
-       designation: "CTO",
-       company: "456 Enterprises",
-       image: "https://randomuser.me/api/portraits/women/6.jpg",
-     },
-     {
-       testimonial:
-         "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-       name: "Lisa Wang",
-       designation: "CTO",
-       company: "456 Enterprises",
-       image: "https://randomuser.me/api/portraits/women/6.jpg",
-     },
-     {
-       testimonial:
-         "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-       name: "Lisa Wang",
-       designation: "CTO",
-       company: "456 Enterprises",
-       image: "https://randomuser.me/api/portraits/women/6.jpg",
-     },
-     {
-       testimonial:
-         "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-       name: "Lisa Wang",
-       designation: "CTO",
-       company: "456 Enterprises",
-       image: "https://randomuser.me/api/portraits/women/6.jpg",
+         "she is a strong critical thinker as well and I believe that she'd be an asset to any team that's lucky enough to have her.",
+       name: "Osama Ashraf",
+       designation: "Fullstack developer",
+       company: "Microverse",
+       image: "https://media.licdn.com/dms/image/D4D35AQFi3WXQqlJrgg/profile-framedphoto-shrink_400_400/0/1682165066143?e=1684731600&v=beta&t=LNeYU6En5v5bHoGxk57z-sKAtLBY0Jopo4I-RL8TCfg",
      },
    ];
    
    const projects = [
      {
-       name: "Car Rent",
+       name: "House Rent",
        description:
-         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+         "Web-based platform that allows users to search, book, and manage House rentals from various providers, providing a convenient and efficient solution for accommodation needs.",
        tags: [
          {
            name: "react",
            color: "blue-text-gradient",
          },
          {
-           name: "mongodb",
+           name: "ruby on rails",
            color: "green-text-gradient",
          },
          {
-           name: "tailwind",
+           name: "Postgresql",
            color: "pink-text-gradient",
          },
        ],
-       image: carrent,
-       source_code_link: "https://github.com/",
+       image: project1,
+       source_code_link: "https://github.com/soesandarwin2201/house-renting-frontend",
      },
      {
-       name: "Job IT",
+       name: "Meal Receipe",
        description:
-         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+         "The app allows the user to see various kinds of meal categories with the functionalities of like and comment features. The MEALDB API has been used to provide meal category data for our Food App",
        tags: [
          {
-           name: "react",
+           name: "javascript",
            color: "blue-text-gradient",
          },
          {
-           name: "restapi",
-           color: "green-text-gradient",
-         },
-         {
-           name: "scss",
-           color: "pink-text-gradient",
-         },
-       ],
-       image: jobit,
-       source_code_link: "https://github.com/",
-     },
-     {
-       name: "Trip Guide",
-       description:
-         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-       tags: [
-         {
-           name: "nextjs",
-           color: "blue-text-gradient",
-         },
-         {
-           name: "supabase",
+           name: "html",
            color: "green-text-gradient",
          },
          {
@@ -320,20 +241,62 @@ import {
            color: "pink-text-gradient",
          },
        ],
-       image: tripguide,
-       source_code_link: "https://github.com/",
+       image: project2,
+       source_code_link: "https://github.com/KIsmoilov/JS-Capstone-Project",
      },
      {
-       name: "Trip Guide",
+       name: "conference landing page",
        description:
-         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+         "A comprehensive conference page that allows users to check the contents of the conference and guest speakers .I used my own content for this and design inspired by Cindy Shin in Behance..",
        tags: [
          {
-           name: "nextjs",
+           name: "html",
            color: "blue-text-gradient",
          },
          {
-           name: "supabase",
+           name: "css",
+           color: "green-text-gradient",
+         },
+         {
+           name: "javascript",
+           color: "pink-text-gradient",
+         },
+       ],
+       image: project3,
+       source_code_link: "https://github.com/soesandarwin2201/HTML-CSS-JavaScript-capstone-project1",
+     },
+     {
+       name: "Bugs Gallery for children education",
+       description:
+         "A comprehensive Bugs Gallery for children education that allows users to teach kids to learn about the bug species and its ability, natures, search for  popular species.",
+       tags: [
+         {
+           name: "react",
+           color: "blue-text-gradient",
+         },
+         {
+           name: "redux",
+           color: "green-text-gradient",
+         },
+         {
+           name: "api",
+           color: "pink-text-gradient",
+         },
+       ],
+       image: project4,
+       source_code_link: "https://github.com/soesandarwin2201/react_capstone_project",
+     },
+     {
+       name: "Portfolio Landing Page",
+       description:
+         "A comprehensive landing page for  developers to show off the skills. that allows users to see the projects, about the author, and see the experience, and can contact the author to hire.",
+       tags: [
+         {
+           name: "javascript",
+           color: "blue-text-gradient",
+         },
+         {
+           name: "group project",
            color: "green-text-gradient",
          },
          {
@@ -341,8 +304,29 @@ import {
            color: "pink-text-gradient",
          },
        ],
-       image: tripguide,
-       source_code_link: "https://github.com/",
+       image: project5,
+       source_code_link: "https://github.com/soesandarwin2201/react_capstone_project",
+     },
+     {
+       name: "Book note",
+       description:
+         "A comprehensive book store app that allows users to add , delete , and make a list to store their booklists.",
+       tags: [
+         {
+           name: "ruby",
+           color: "blue-text-gradient",
+         },
+         {
+           name: "ruby on rails",
+           color: "green-text-gradient",
+         },
+         {
+           name: "postgresq;",
+           color: "pink-text-gradient",
+         },
+       ],
+       image: project6,
+       source_code_link: "https://github.com/soesandarwin2201/awesome-books",
      },
    ];
    
