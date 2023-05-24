@@ -34,6 +34,9 @@ import {
    import content from '../assets/content.png'
    import ruby from '../assets/ruby.png'
    import rails from '../assets/ruby-on-rails.png'
+   import peter from '../assets/peter.jpg'
+   import osama from '../assets/osama.jpg'
+   import antony from '../assets/antony.jpg'
 
    
    export const navLinks = [
@@ -181,7 +184,7 @@ import {
        name: "Peter Chendi",
        designation: "FullStack Developer",
        company: "Microverse",
-       image: "https://media.licdn.com/dms/image/D4E35AQGhZklYNofDXQ/profile-framedphoto-shrink_400_400/0/1671796681971?e=1684728000&v=beta&t=eQzH2fl4EzT6i034VrDSDRxi4r7B6ff-ywlNU2-iqIM",
+       image: peter,
      },
      {
        testimonial:
@@ -189,7 +192,7 @@ import {
        name: "Abdallag Antony",
        designation: "Fullstack Developer",
        company: "Microverse",
-       image: "https://media.licdn.com/dms/image/D4D35AQEO1naJr4CVXA/profile-framedphoto-shrink_400_400/0/1672029026869?e=1684731600&v=beta&t=7jqRX6tBImOL0le-mVimCs3PsNhGZQCc4CShMsi1lLU"
+       image: antony,
      },
      {
        testimonial:
@@ -197,7 +200,7 @@ import {
        name: "Osama Ashraf",
        designation: "Fullstack developer",
        company: "Microverse",
-       image: "https://media.licdn.com/dms/image/D4D35AQFi3WXQqlJrgg/profile-framedphoto-shrink_400_400/0/1682165066143?e=1684731600&v=beta&t=LNeYU6En5v5bHoGxk57z-sKAtLBY0Jopo4I-RL8TCfg",
+       image: osama,
      },
    ];
    
