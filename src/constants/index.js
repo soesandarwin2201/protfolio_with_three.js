@@ -156,9 +156,9 @@ import {
        iconBg: "#E6DEDD",
        date: "May 2023 - Present",
        points: [
-         "Create the business planner for the product package",
-         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-         "Creating sale plan and graphic design for the high quality product",
+         "Successfully created the business plan and designed an innovative product package for enhanced sales",
+         "Achieved successful connections with global investors and managers, facilitating valuable partnerships and collaborations",
+         "Successfully trained staff members in the areas of public speaking, sales, and business planning, leading to enhanced skills and increased performance",
          "Check the progress of the business and manage team",
        ],
      },
