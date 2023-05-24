@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import cv from '../assets/cv.pdf'
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
@@ -49,6 +50,8 @@ const About = () => {
       >
         I am a skilled software developer with experience in  JavaScript, and Ruby, and expertise in frameworks like React, Next.js, Ruby on Rails, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
+
+
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
