@@ -159,7 +159,7 @@ import {
          "Successfully created the business plan and designed an innovative product package for enhanced sales",
          "Achieved successful connections with global investors and managers, facilitating valuable partnerships and collaborations",
          "Successfully trained staff members in the areas of public speaking, sales, and business planning, leading to enhanced skills and increased performance",
-         "Check the progress of the business and manage team",
+         "Successfully created engaging content and visually appealing graphic design for the product, leading to its enhanced appeal and market success.",
        ],
      },
      {
