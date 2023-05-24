@@ -51,10 +51,9 @@ const About = () => {
         I am a skilled software developer with experience in  JavaScript, and Ruby, and expertise in frameworks like React, Next.js, Ruby on Rails, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
 
-      <motion.a href={cvFile} download 
-      variants={fadeIn("", "", 0.1, 1)}>
-    <button className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary">Download CV</button>
-      </motion.a>
+      <a href={cvFile} download>
+    <button className="cv-btn bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary">Download CV</button>
+      </a>
 
 
 
