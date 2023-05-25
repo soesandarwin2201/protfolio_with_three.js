@@ -78,7 +78,7 @@ Read a random math-related quote.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Click here to see the [Live Demo](https://soesandarwin2201.github.io/es6.books.soesandarwin2201.github.io/) of the website 
+Click here to see the [Live Demo](https://extraordinary-madeleine-6e5c34.netlify.app/) of the website 
 
   ![](./src/images/math%20magician%20project.png)
 
